@@ -1,0 +1,159 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f1;
+  color: #1f3b2d;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+/* Navbar */
+nav {
+  background-color: #1a7f49; /* hijau tua */
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffec99; /* kuning muda */
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 1rem;
+  color: #1a7f49;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* UKM List */
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 0.75rem;
+  background: #d2efe2; /* hijau muda */
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #b2dbc9;
+}
+
+li a {
+  text-decoration: none;
+  color: #1a7f49;
+  font-weight: bold;
+}
+
+/* Detail Box */
+.detail-box {
+  padding: 1.5rem;
+  background: #edf7f2;
+  border-left: 5px solid #1a7f49;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Button Style */
+button {
+  background-color: #1a7f49;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #166d3e;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin-bottom: 10px;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+/* Logo khusus halaman Home */
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+.welcome {
+  text-align: center;
+  padding: 40px;
+  background: #fff;
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #0b703f;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #0b703f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-link:hover {
+  background-color: #095d34;
+}
