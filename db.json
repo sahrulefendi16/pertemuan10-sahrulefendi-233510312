@@ -1,0 +1,73 @@
+{
+  "ukms": [
+    {
+      "id": "1",
+      "name": "UKM Olahraga",
+      "description": "Unit kegiatan mahasiswa yang berfokus pada pengembangan bakat di bidang olahraga.",
+      "leader": "Budi Santoso",
+      "membersCount": 120,
+      "contactEmail": "olahraga@uir.ac.id"
+    },
+    {
+      "id": "2",
+      "name": "UKM Seni",
+      "description": "Wadah bagi mahasiswa untuk menyalurkan minat dan bakat di bidang seni (musik, tari, teater, dll).",
+      "leader": "Citra Dewi",
+      "membersCount": 80,
+      "contactEmail": "seni@uir.ac.id"
+    },
+    {
+      "id": "3",
+      "name": "UKM Penalaran",
+      "description": "Mengembangkan kemampuan berpikir kritis dan ilmiah mahasiswa melalui berbagai kegiatan riset dan diskusi.",
+      "leader": "Dian Pratama",
+      "membersCount": 60,
+      "contactEmail": "penalaran@uir.ac.id"
+    },
+    {
+      "id": "4",
+      "name": "UKM Petanque",
+      "description": "Menjadikan UKM Petanque UIR sebagai wadah pengembangan prestasi, karakter, dan sportivitas mahasiswa dalam bidang olahraga petanque yang unggul di tingkat regional, nasional, dan internasional, serta menjunjung tinggi nilai-nilai Islami.",
+      "leader": "Sahrul Efendi",
+      "membersCount": 40,
+      "contactEmail": "ukmpetanque@gmail.com"
+    },
+    {
+      "id": "471c",
+      "name": "futsal",
+      "description": "aaaaaaaaaaaaaa",
+      "leader": "sahrul efendi",
+      "contactEmail": "example@gmail.com"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "ukmId": "1",
+      "title": "Juara 1 Turnamen Futsal Antar Universitas",
+      "year": 2024,
+      "description": "Tim futsal UKM Olahraga berhasil meraih juara pertama dalam turnamen tingkat provinsi."
+    },
+    {
+      "id": "2",
+      "ukmId": "2",
+      "title": "Pementasan Teater 'Bunga Bangsa'",
+      "year": 2023,
+      "description": "UKM Seni sukses menggelar pementasan teater yang memukau di gedung serbaguna."
+    },
+    {
+      "id": "3",
+      "ukmId": "1",
+      "title": "Medali Emas Kejuaraan Bulutangkis Regional",
+      "year": 2024,
+      "description": "Atlet bulutangkis dari UKM Olahraga meraih medali emas di kejuaraan regional."
+    },
+    {
+      "id": "4",
+      "ukmId": "3",
+      "title": "Penelitian Terbaik Konferensi Nasional",
+      "year": 2024,
+      "description": "Tim riset UKM Penalaran mempresentasikan penelitian inovatif dan mendapatkan penghargaan."
+    }
+  ]
+}

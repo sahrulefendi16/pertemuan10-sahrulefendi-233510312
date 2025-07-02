@@ -1,25 +1,41 @@
-<script>
-export default {
-  name: 'App'
-}
-</script>
-
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Beranda</router-link>
-      <router-link to="/ukm">Daftar ukm</router-link>
-    </nav>
-    <router-view></router-view>
+    <Header />
+
+    <main class="main-content">
+      <router-view />
+    </main>
+
+    <Footer />
   </div>
 </template>
 
+<script setup>
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
+</script>
+
 <style>
-nav {
-  background: #eee;
-  padding: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  scroll-behavior: smooth;
+  min-height: 100vh;
 }
-nav a {
-  margin-right: 10px;
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
 }
 </style>
